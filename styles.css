@@ -5,6 +5,7 @@ body {
     padding: 0;
     background: #f0f0f0;
     font-family: 'Lato';
+    overflow-x: hidden;
 }
 
 ul li {
@@ -46,21 +47,20 @@ ul li {
     
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    
     width: inherit;
     height: 60vh;
     background: url('http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    min-width: 999px;
+   
+
 }
 
 .navigation {
 
     display: flex;
     flex-direction: row;
-   
     align-items: center;
     justify-content: center;
     width: inherit;
@@ -71,17 +71,13 @@ ul li {
     
 }
 
-.promotional {
-    width: inherit;
-    height: 50vh;
-    
-}
+
 
 .logo {
     display: flex;
-    flex: 2;
-    flex-wrap: wrap;
-    height: 10vh;
+    flex: 1;
+    height: fill;
+    padding: 10px;
     align-items: center;
     justify-content: flex-end;
 }
@@ -109,6 +105,31 @@ ul li {
     border-bottom: 5px solid yellow;
 }
 
+
+.promotional {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: fit-content;
+    justify-content: center;
+}
+
+.promotional-actual {
+
+    display: flex;
+    flex-direction: inherit;
+    width: 60vw;
+    height: inherit;
+    padding: 10px;
+}
+
+.big {
+   
+}
+
+
+
 /* colors */
 
 
@@ -122,6 +143,44 @@ ul li {
     }
 
     .mobile {
+        display: flex;
+        flex: 1;
+        color: gray;
+    }
+
+    
+
+
+    .logo {
         display: block;
+    }
+
+    
+
+    .menu-list {
+
+        display: flex;
+        justify-content: flex-end;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .navigation {
+
+        animation: ease-in-out;
+        animation-name: navEffect;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+    }
+}
+
+@keyframes navEffect {
+    50% {
+        background: rgba(255,255,255,0.5)
+    }
+
+    100% {
+        background: rgba(255,255,255,1)
     }
 }
