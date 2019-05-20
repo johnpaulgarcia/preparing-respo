@@ -274,7 +274,7 @@ i {
 
     display: flex;
     flex-direction: column;
-    flex-direction: row;
+    flex-direction: row;;
     align-items: center;
     justify-content: center;
     width: 100vw;
@@ -287,6 +287,12 @@ i {
     display: block;
     clear: both;
     content: "";
+}
+
+
+
+.widened {
+    width: 30vw !important;
 }
 
 .content-sub-1 {
@@ -302,9 +308,29 @@ i {
   
 }
 
+.fit {
+    height: fit-content;
+}
+
 .pre {
     width: 100%;
     text-align: center;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.seam {
+    padding: 0;
+    margin: 0;
 }
 
 
