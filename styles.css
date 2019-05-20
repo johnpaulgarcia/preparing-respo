@@ -77,14 +77,19 @@ i {
     align-items: center;
     justify-content: center;
     width: inherit;
+    position: relative;
     height: 10vh;
+    top: 0;
     padding: 0px 10px 20px 10px;
-    margin: 10px 0px 10px 0px;
+    margin: 0px 0px 10px 0px;
     background: transparent;
-    line-height: 140px;
+    
+    
 
     
 }
+
+
 
 
 
@@ -171,18 +176,24 @@ i {
    
 }
 
+.bold {
+    font-weight: bolder;
+    color: #fff;
+}
+
 
 
 .motto {
     text-align:center;
+   
 }
 
 
 .block {
     background: white;
-    width: 50px;
+    min-width: 50px;
     height: 10px;
-    margin: 0 3px 0 3px;
+    margin: 0 20px 0 20px;
 }
 
 .text {
@@ -323,12 +334,12 @@ i {
     justify-content: center;
     width: 25vw;
     min-height: 20px;
-    height: fit-content;
+    height: 15vh;
     padding: 40px;
     flex-wrap: wrap;
     word-wrap: break-word;
     background: white;
-    color: #999;
+    color: #40666d;
   
 }
 
@@ -398,7 +409,7 @@ i {
 
 .pic {
     display: flex;
-    width:30vw;
+    width: 33.33vw;
     height: 30vh;
     background: gray;
 }
@@ -410,14 +421,17 @@ i {
 }
 
 .addr1 {
-  background: url('pic1.jpg');
+  background: url('pic7.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .addr2 {
+    background: url('pic8.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
-}
 
 .business-email {
     display: flex;
@@ -432,17 +446,56 @@ i {
     border-bottom: 5px solid #bdd436;
 }
 
+.header {
+    font-size: 20px;
+}
+
 .address {
     display: flex;
+    
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+.address::after {
+    display: block;
+    clear:both;
+    content: "";
 }
 
 .address-actual {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 50vw;
-    height: 40vh;
+    height: 50vh;
    
+}
+
+.inside-address {
+
+    width: 20vw;
+    height: fit-content;
+    padding: 20px;
+    background: rgba(0,0,0,0.8);
+    color: #fff !important;
+}
+
+.footer {
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+}
+
+.oswald {
+    font-family: 'Oswald' !important;
+    font-size: 155px;
+    font-weight: 100;
+    line-height: 140px;
+    letter-spacing: 1px;
 }
 
 
@@ -484,6 +537,8 @@ i {
     .menu-option {
         display: none;
     }
+
+    
 
     .mobile {
         display: flex;
@@ -536,6 +591,10 @@ i {
         flex-direction: column;
     }
 
+    .under_promo {
+        width: 98vw;
+    }
+
     
 
     
@@ -551,6 +610,11 @@ i {
         animation-duration: 0.5s;
         animation-fill-mode: forwards;
     }
+
+    .navigation {
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+        position: fixed;
+    }
 }
 
 @media screen and (max-width: 1121px){
@@ -562,6 +626,15 @@ i {
     .pic {
         width: 100vw;
         height: 60vw;
+    }
+
+    .address-actual {
+        width: 100vw;
+        
+    }
+
+    .inside-address {
+        width: 40vw;
     }
 }
 
