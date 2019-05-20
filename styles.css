@@ -258,6 +258,12 @@ i {
 
 }
 
+.how-it-works {
+    display: flex;
+    flex-direction: column;
+    
+}
+
 .btn-small {
     width: 20vw !important;
     margin: 30px;
