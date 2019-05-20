@@ -1,0 +1,61 @@
+<div class="flexify">
+
+                    <div class="content-1">
+                            <div>
+
+                            </div>
+
+                            <div class="def">
+                                    <div class="contained">
+                                Bring Your Business Ideas, Problems,
+                                Challenges, or Dreams to Wide Open.
+                                    </div>
+                            </div>
+
+                            <div class="learn">
+                                    <div class="contained-2">
+                                   Learn About Our Services
+                                   </div> 
+                            </div>
+                    </div>
+
+                    <div class="content-1">
+                            <div>
+
+                            </div>
+
+                            <div class="def">
+                               <div class="contained">
+                                Wide Open's tight knit team of experts becomes your team
+                                of experts, advising you on the most effective, efficient
+                                solution.
+                            </div>
+                            </div>
+
+                            <div class="learn">
+                                    <div class="contained-2">
+                                Learn About Our Company
+                                  </div>
+                            </div>
+                    </div>
+
+                    <div class="content-1">
+                            <div>
+
+                                </div>
+    
+                                <div class="def">
+                                    <div class="contained">
+                                   Wide Open constructs, implements and maintains your amazing new technology and makes your life easier.
+                                </div>
+                                </div>
+    
+                                <div class="learn">
+                                        <div class="contained-2">
+                                    See Some of the work We Have Done
+                                    </div>
+                                </div>
+                    </div>
+
+
+                </div>
