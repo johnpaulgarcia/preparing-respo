@@ -111,7 +111,7 @@ ul li {
     flex-direction: column;
     align-items: center;
     width: 100vw;
-    height: fit-content;
+    height: 100%;
     justify-content: center;
 }
 
@@ -119,18 +119,92 @@ ul li {
 
     display: flex;
     flex-direction: inherit;
+    align-items:center;
+    justify-content: center;
     width: 60vw;
-    height: inherit;
+    height:  inherit;
     padding: 10px;
 }
 
 .big {
+    display: flex;
+    flex-direction: column;
+    
+    flex-wrap: wrap;
+    
+}
+
+.under_promo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.sm {
+    margin: 0;
+    padding:0;
+}
+
+.bg {
+    margin: 0;
+    padding: 0;
+    font-size: 10vh;
    
 }
 
 
 
+.motto {
+    text-align:center;
+}
+
+
+.block {
+    background: white;
+    width: 50px;
+    height: 10px;
+    margin: 0 3px 0 3px;
+}
+
+
+/* buttons */
+
+.btn-big {
+    
+    
+    width: 40vw;
+    height: 5vh;
+    border-radius: 20px;
+    border: none;
+    background: #bdd436;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+
+
+
+
 /* colors */
+
+
+/* text colors */
+.orange {
+    color: orange;
+
+}
+
+.light-green {
+    color: lightgreen;
+}
+
+.white {
+    color: #fff;
+}
 
 
 
