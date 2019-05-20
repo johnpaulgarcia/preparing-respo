@@ -184,8 +184,10 @@ i {
 
 
 .motto {
-    text-align:center;
+
     
+    text-align:center;
+   
     
     
     
@@ -194,9 +196,9 @@ i {
 
 .block {
     background: white;
-    min-width: 50px;
+    min-width: 80px;
     height: 10px;
-    margin: 0 20px 0 20px;
+    margin: 0 50px 0 50px;
 }
 
 .text {
@@ -245,7 +247,7 @@ i {
 .btn-big {
     
     
-    width: 30vw;
+    width: 50vw;
     height: 5vh;
     border-radius: 20px;
     border: none;
@@ -412,9 +414,22 @@ i {
 
 .pic {
     display: flex;
+    position: relative;
     width: 33.33vw;
     height: 30vh;
     background: gray;
+    
+}
+
+.title {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    text-align:center;
+    z-index: 999;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bolder;
 }
 
 .content-gallery::after {
@@ -501,6 +516,14 @@ i {
     letter-spacing: 1px;
 }
 
+.btn-learn {
+
+
+   align-self: center;
+   justify-content: flex-end;
+
+}
+
 
 
 
@@ -509,7 +532,7 @@ i {
 
 /* text colors */
 .orange {
-    color: orange;
+    color: orangered;
 
 }
 
@@ -541,6 +564,16 @@ i {
         display: none;
     }
 
+
+    .block {
+        margin: -10px 10px 10px 10px;
+        min-width: 60px;
+    }
+
+    .motto {
+        width: 300px;
+    }
+
     
 
     .mobile {
@@ -550,8 +583,10 @@ i {
     }
 
     .btn-big {
-        width: 90vw;
+        width: 50vw;
     }
+
+
 
     
 
@@ -599,8 +634,7 @@ i {
     }
 
     .motto {
-        margin-top: -2px;
-    margin-left: 25px;
+       
     } 
 
 }
