@@ -185,7 +185,10 @@ i {
 
 .motto {
     text-align:center;
-   
+    
+    
+    
+    
 }
 
 
@@ -595,12 +598,15 @@ i {
         width: 98vw;
     }
 
-    
-
-    
-     
+    .motto {
+        margin-top: -2px;
+    margin-left: 25px;
+    } 
 
 }
+
+
+
 
 @media screen and (max-width: 768px){
     .navigation {
@@ -638,6 +644,35 @@ i {
     }
 }
 
+@media screen and (max-width: 600px) {
+    .big {
+        align-items: center;
+        justify-content: center;
+        transform: scale(0.6);
+    }
+}
+
+
+@media screen and (max-width: 430px) {
+    .big {
+        align-items: center;
+        justify-content: center;
+        transform: scale(0.5);
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .big {
+        align-items: center;
+        justify-content: center;
+        transform: scale(0.3);
+    }
+}
+
+
+
+
+
 @keyframes navEffect {
     50% {
         background: rgba(255,255,255,0.5)
@@ -647,3 +682,4 @@ i {
         background: rgba(255,255,255,1)
     }
 }
+
