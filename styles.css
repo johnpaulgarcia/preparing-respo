@@ -4,9 +4,11 @@ body {
     margin: 0;
     padding: 0;
     background: #f0f0f0;
-    font-family: 'Lato';
+  
     overflow-x: hidden;
+    
     min-width: 300px;
+    color: #999;
 }
 
 em {
@@ -60,7 +62,7 @@ i {
     display: flex;
     flex-direction: column;
     width: inherit;
-    height: 60vh;
+    height: 60vh !important;
     background: url('http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -75,9 +77,11 @@ i {
     align-items: center;
     justify-content: center;
     width: inherit;
-    height: fit-content;
-    padding: 10px;
+    height: 10vh;
+    padding: 0px 10px 20px 10px;
+    margin: 10px 0px 10px 0px;
     background: transparent;
+    line-height: 140px;
 
     
 }
@@ -213,6 +217,8 @@ i {
    
 }
 
+
+
 .flexify:after {
     display: block;
     clear: both;
@@ -225,7 +231,7 @@ i {
 .btn-big {
     
     
-    width: 40vw;
+    width: 30vw;
     height: 5vh;
     border-radius: 20px;
     border: none;
@@ -234,6 +240,11 @@ i {
     font-weight: bold;
     font-size: 15px;
 
+}
+
+.btn-small {
+    width: 20vw !important;
+    margin: 30px;
 }
 
 .padding
@@ -283,12 +294,55 @@ i {
     flex-wrap: wrap;
 }
 
+.sub-zero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: fit-content;
+    padding: 20px;
+}
+
+.content-sub-x {
+
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    height: fit-content;
+    flex-wrap: wrap;
+}
+
+.content-sub-x-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25vw;
+    min-height: 20px;
+    height: fit-content;
+    padding: 40px;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    background: white;
+    color: #999;
+  
+}
+
 .content-sub::after {
     display: block;
     clear: both;
     content: "";
 }
 
+.content-sub-x::after {
+    display: block;
+    clear: both;
+    content: "";
+}
 
 
 .widened {
@@ -333,6 +387,64 @@ i {
     margin: 0;
 }
 
+.content-gallery {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.pic {
+    display: flex;
+    width:30vw;
+    height: 30vh;
+    background: gray;
+}
+
+.content-gallery::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.addr1 {
+  background: url('pic1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.addr2 {
+
+}
+
+.business-email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background: teal;
+}
+
+.border-lg {
+    border-bottom: 5px solid #bdd436;
+}
+
+.address {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.address-actual {
+    width: 50vw;
+    height: 40vh;
+   
+}
+
 
 
 
@@ -360,7 +472,7 @@ i {
 /* containers */
 
 .gray {
-    background: rgba(0,0,0,0.2);
+   background: transparent;
 }
 
 
@@ -401,7 +513,7 @@ i {
     .explained {
         width: 90vw;
         line-height: 1.5;
-        text-align: justify;
+        text-align: center;
         margin: 0 5px 0 5px;
         font-size: 20px;
         
@@ -419,6 +531,13 @@ i {
         width: 50vw;
     }
 
+    .business-email 
+    {
+        flex-direction: column;
+    }
+
+    
+
     
      
 
@@ -431,6 +550,18 @@ i {
         animation-name: navEffect;
         animation-duration: 0.5s;
         animation-fill-mode: forwards;
+    }
+}
+
+@media screen and (max-width: 1121px){
+    .content-sub-x-1 {
+        width: 100vw;
+        margin-top: 20px;
+    }
+
+    .pic {
+        width: 100vw;
+        height: 60vw;
     }
 }
 

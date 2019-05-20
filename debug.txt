@@ -59,3 +59,54 @@
 
 
                 </div>
+
+
+                !!!!!!!!!!!!!!!!!!
+
+
+                 <div class="content-sub-1-2 fit widened">
+                            <h3>
+                                    Repair or modify
+                                    existing software
+                            </h3>
+                    </div>
+
+                    <div class="content-sub-1-2 fit widened">
+                            <h3 class="text-center seam">
+                                    Develop a mobile app with real revenue potential
+                            </h3>
+
+                            <h5 class="seam text-center">
+                                    Make an impact on any device
+                            </h5>
+                    </div>
+
+                    <div class="content-sub-1 fit widened">
+                            <h3 class="text-center seam">
+                                    Build functional prototypes for entrepreneurs
+                            </h3>
+
+                            <h5 class="seam text-center">
+                                    Have a digital idea? We turn it into something you can show investors.
+                            </h5>
+                    </div>
+
+                    <div class="content-sub-1 fit widened">
+                            <h3 class="text-center seam">
+                                    Be your multi-talented technology department
+                            </h3>
+
+                            <h5 class="seam text-center">
+                                    Rely on us for consistent management and maintenance of the digital side of your business.
+                            </h5>
+                    </div>
+
+                    <div class="content-sub-1 fit widened">
+                            <h3 class="text-center seam">
+                                    Make eCommerce work for you and your clients
+                            </h3>
+
+                            <h5 class="seam text-center">
+                                    Customized functionality tailored to your business
+                            </h5>
+                    </div>
